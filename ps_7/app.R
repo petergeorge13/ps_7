@@ -70,7 +70,8 @@ ui <- fluidPage(
       sidebarPanel(
         selectInput("region", "
                            Select Region:",
-                           app_data$region
+                           app_data$region,
+                    
                     
                     
                              
